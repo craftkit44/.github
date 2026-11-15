@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Faille de sécurité
+    url: https://github.com/craftkit44/.github/blob/HEAD/SECURITY.md
+    about: Ne jamais signaler une vulnérabilité dans une issue publique — voir la procédure.
+  - name: Question / support
+    url: https://github.com/craftkit44/.github/blob/HEAD/SUPPORT.md
+    about: Comment obtenir de l'aide sur ce dépôt.
