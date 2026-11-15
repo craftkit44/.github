@@ -1,0 +1,52 @@
+name: Rapport de bug
+description: Signaler un comportement incorrect (hors faille de sécurité)
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pour une **faille de sécurité**, ne pas utiliser ce formulaire :
+        voir la politique de sécurité (onglet *Security → Report a vulnerability*).
+  - type: textarea
+    id: summary
+    attributes:
+      label: Résumé
+      description: Description courte du problème.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportement observé
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Environnement
+      description: Version / commit, navigateur ou JDK, environnement (local / dev / prod).
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs pertinents
+      render: shell
+    validations:
+      required: false

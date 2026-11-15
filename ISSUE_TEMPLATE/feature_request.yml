@@ -1,0 +1,30 @@
+name: Demande de fonctionnalité
+description: Proposer une évolution ou une amélioration
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      description: Quel problème utilisateur cette évolution résout-elle ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Solution envisagée.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte additionnel
+    validations:
+      required: false
